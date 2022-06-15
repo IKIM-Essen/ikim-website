@@ -57,7 +57,7 @@ pre > code { border: 0; padding-right: 0; padding-left: 0; }
 @media screen and (max-width: 800px) { .wrapper { max-width: -webkit-calc(800px - (30px)); max-width: calc(800px - (30px)); padding-right: 15px; padding-left: 15px; } }
 
 /** Clearfix */
-.footer-col-wrapper:after, .wrapper:after { content: ""; display: table; clear: both; }
+.wrapper-header:after, .footer-col-wrapper:after, .wrapper:after { content: ""; display: table; clear: both; }
 
 /** Icons */
 .svg-icon { width: 16px; height: 16px; display: inline-block; fill: #828282; padding-right: 5px; vertical-align: text-top; }
@@ -273,5 +273,68 @@ table td { border: 1px solid #e8e8e8; }
 .highlight .vi { color: #008080; }
 
 .highlight .il { color: #099; }
+
+/** Wrapper */
+.wrapper-header { max-width: -webkit-calc(950px - (30px * 2)); max-width: calc(950px - (30px * 2)); margin-right: auto; margin-left: auto; padding-right: 30px; padding-left: 30px; }
+
+@media screen and (max-width: 800px) { .wrapper-header { max-width: -webkit-calc(950px - (30px)); max-width: calc(950px - (30px)); padding-right: 15px; padding-left: 15px; } }
+
+.pointer { cursor: pointer; }
+
+h1 { font-size: 26px; }
+
+@media screen and (max-width: 800px) { h1 { font-size: 20px; } }
+
+h2 { font-size: 22.8px; }
+
+@media screen and (max-width: 800px) { h2 { font-size: 18.4px; } }
+
+h3 { font-size: 19.2px; }
+
+@media screen and (max-width: 800px) { h3 { font-size: 16.8px; } }
+
+h4 { font-size: 16.8px; }
+
+@media screen and (max-width: 800px) { h4 { font-size: 16.8px; } }
+
+.post-title { font-size: 26px; letter-spacing: -1px; line-height: 1; }
+
+@media screen and (max-width: 800px) { .post-title { font-size: 20px; } }
+
+.post-content { margin-bottom: 30px; }
+
+.post-content h1 { font-size: 26px; }
+
+@media screen and (max-width: 800px) { .post-content h1 { font-size: 20px; } }
+
+.post-content h2 { font-size: 22.8px; }
+
+@media screen and (max-width: 800px) { .post-content h2 { font-size: 18.4px; } }
+
+.post-content h3 { font-size: 19.2px; }
+
+@media screen and (max-width: 800px) { .post-content h3 { font-size: 16.8px; } }
+
+.post-content h4 { font-size: 16.8px; }
+
+@media screen and (max-width: 800px) { .post-content h4 { font-size: 16.8px; } }
+
+.grouplist li { font-size: 18.4px; list-style-type: none; margin-bottom: 15px; }
+
+.small-bottom-margin { margin-bottom: 5px; }
+
+.contact { float: left; padding-right: 40px; margin-right: 20px; border-right: 1px solid silver; }
+
+.person-img { width: 250px; height: 180px; object-fit: cover; float: left; margin-right: 20px; margin-bottom: 20px; }
+
+.clear { clear: left; }
+
+.person-separator { clear: left; border-bottom: 1px solid silver; }
+
+.bib pre { font-size: 9.6px; }
+
+.bib ol { list-style-type: none; }
+
+.bib ol.bibliography li { font-size: 14.4px; margin-bottom: 7.5px; }
 
 /*# sourceMappingURL=main.css.map */

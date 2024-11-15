@@ -45,17 +45,6 @@
     zip: 45131
     city: Essen
 
-- name: grk
-  type: rg
-  label: WisPerMed RTG
-  url: https://wispermed.com/
-  address:
-    name: Girardethaus
-    street: Girardetstr. 2
-    additional: House 2, 3rd floor
-    zip: 45131
-    city: Essen
-
 - name: mi
   type: rg
   label: Medical Informatics

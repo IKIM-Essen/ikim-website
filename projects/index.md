@@ -8,7 +8,7 @@ nav_active: projects
 
 {% for post in projects %}
 * [{{ post.title }}]({{ post.url | relative_url }})<br />{{ post.excerpt }}
-{% endfor -%}
+{%- endfor -%}
 * [Medical Machine Learning Projects](https://mml.ikim.nrw/projects)<br />
   The research group Medical Machine Learning works on developing and deploying cutting-edge machine learning methods with the goal of making a meaningful difference for patients, doctors, and hospital staff.
 * [https://ship-ai.ikim.nrw/tour/](Data Integration and AI in Radiology Projects)<br />

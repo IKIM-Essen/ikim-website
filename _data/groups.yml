@@ -56,6 +56,16 @@
     zip: 45131
     city: Essen
 
+- name: mi
+  type: rg
+  label: Medical Informatics
+  url: https://www.fh-dortmund.de/personen/Britta-Bockmann/index.php
+  address:
+    name: FH Dortmund
+    street: Emil-Figge-Straße 38-44
+    zip: 44227
+    city: Dortmund
+
 - name: ait
   type: jrg
   group: mml

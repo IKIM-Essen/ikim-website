@@ -31,3 +31,8 @@ jobs:
         export LC_ALL=en_US.UTF-8
         bundle3.2
         jekyll build
+
+    - uses: actions/upload-artifact@v4
+      with:
+        name: rendered-site
+        path: "_site/"

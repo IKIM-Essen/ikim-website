@@ -1,0 +1,320 @@
+@ARTICLE{Heiden2015-da,
+  title    = "Virtual Oncological {Networks--IT} support for an evidence-based,
+              oncological health care management",
+  author   = "Heiden, Katja and Sinha, Monika and B{\"o}ckmann, Britta",
+  abstract = "An interdisciplinary and intersectoral coordinated therapy
+              management along Clinical Practice Guidelines can ensure that all
+              patients receive adequate diagnostic, treatment, and supportive
+              services that lead most likely to optimal outcomes. Within the
+              research project ``Virtual Oncological Networks'',
+              guideline-compliant pathways are defined and enacted within a
+              Health Care Management Platform to support treatment planning and
+              ongoing care of oncological diseases.",
+  journal  = "Stud. Health Technol. Inform.",
+  volume   =  216,
+  pages    = "953",
+  year     =  2015,
+  language = "en"
+}
+@ARTICLE{Beckmann2023-tr,
+  title     = "Semantic integration of {BPMN} models and {FHIR} data to enable
+               personalized decision support for malignant melanoma",
+  author    = "Beckmann, Catharina and Keuchel, Daniel and Soleman, Wa and
+               N{\"u}rnberg, Sylvia and B{\"o}ckmann, Britta",
+  abstract  = "With digital patient data increasing due to new diagnostic
+               methods and technology, showing the right data in the context of
+               decision support at the point of care becomes an even greater
+               challenge. Standard operating procedures (SOPs) modeled in BPMN
+               (Business Process Model and Notation) contain evidence-based
+               treatment guidance for all phases of a certain diagnosis, while
+               physicians need the parts relevant to a specific patient at a
+               specific point in the clinical process. Therefore, integration
+               of patient data from electronic health records (EHRs) providing
+               context to clinicians is needed, which is stored and
+               communicated in HL7 (Health Level Seven) FHIR (Fast Healthcare
+               Interoperability Resources). To address this issue, we propose a
+               method combining an integration of stored data into BPMN and a
+               loss-free transformation from BPMN into FHIR, and vice versa.
+               Based on that method, an identification of the next necessary
+               decision point in a specific patient context is possible. We
+               verified the method for treatment of malignant melanoma by using
+               an extract of a formalized SOP document with predefined decision
+               points and validated FHIR references with real EHR data. The
+               patient data could be stored and integrated into the BPMN
+               element `DataStoreReference'. Our loss-free transformation
+               process therefore is the foundation for combining evidence-based
+               knowledge from formalized clinical guidelines or SOPs and
+               patient data from EHRs stored in FHIR. Processing the SOP with
+               the available patient data can then lead to the next upcoming
+               decision point, which will be displayed to the physician
+               integrated with the corresponding data.",
+  journal   = "Information (Basel)",
+  publisher = "MDPI AG",
+  volume    =  14,
+  number    =  12,
+  pages     = "649",
+  month     =  dec,
+  year      =  2023,
+  copyright = "https://creativecommons.org/licenses/by/4.0/",
+  language  = "en"
+}
+@INCOLLECTION{Beckmann2022-fg,
+  title     = "Guideline-based context-sensitive decision modeling for melanoma
+               patients",
+  booktitle = "Studies in Health Technology and Informatics",
+  author    = "Beckmann, Catharina Lena and Lodde, Georg and Livingstone,
+               Elisabeth and Schadendorf, Dirk and B{\"o}ckmann, Britta",
+  abstract  = "Introduction: The provision of knowledge through clinical
+               practice guidelines and hospital-specific standard operating
+               procedures (SOPs) is ubiquitous in the medical context and in
+               the treatment of melanoma patients. However, these knowledge
+               sources are only available in unstructured text form and without
+               any contextual link to real patient data. The aim of our project
+               is to give a modeled decision support for the next treatment
+               step based on the actual data and position of a patient.
+               Methods: First, we identified passages for qualified
+               decision-making necessary at the point of care from the SOP for
+               melanoma. Thereby, the patient-specific contextual reference
+               data at decision points was considered in parallel and
+               represented by FHIR (Fast Healthcare Interoperability Resource)
+               resources. The decision algorithm was then formalized using BPMN
+               modeling with FHIR annotations. Validation was provided by
+               medical experts, dermatooncologists from University Hospital
+               Essen. Results: The resulting BPMN model is presented here with
+               the diagnostic procedure of sentinel lymph node excision as the
+               example snippet from the whole algorithm. Each decision point is
+               edited with FHIR resources covering the patient data and
+               preparing the context sensitivity of the model. Conclusion:
+               Modeling guideline-based information into a decision algorithm
+               that can be presented at the point of care with contextual
+               reference, may have the potential to support patient-specific
+               clinical decision-making. For patients from a certain status
+               like in the metastatic setting modeling becomes highly tailored
+               to specific patient cases, alternative and individualized
+               treatment options.",
+  publisher = "IOS Press",
+  series    = "Studies in health technology and informatics",
+  month     =  aug,
+  year      =  2022
+}
+@ARTICLE{Becker2020-qq,
+  title     = "Mapping patient data to colorectal cancer clinical algorithms
+               for personalized guideline-based treatment",
+  author    = "Becker, Matthias and B{\"o}ckmann, Britta and J{\"o}ckel,
+               Karl-Heinz and Stuschke, Martin and Paul, Andreas and Kasper,
+               Stefan and Virchow, Isabel",
+  abstract  = "BACKGROUND: Colorectal cancer is the most commonly occurring
+               cancer in Germany, and the second and third most commonly
+               diagnosed cancer in women and men, respectively. In this
+               context, evidence-based guidelines positively impact the quality
+               of treatment processes for cancer patients. However, evidence of
+               their impact on real-world patient care remains unclear. To
+               ensure the success of clinical guidelines, a fast and clear
+               provision of knowledge at the point of care is essential.
+               OBJECTIVES: The objectives of this study are to model
+               machine-readable clinical algorithms for colon carcinoma and
+               rectal carcinoma annotated by Unified Medical Language System
+               (UMLS) based on clinical guidelines and the development of an
+               open-source workflow system for mapping clinical algorithms with
+               patient-specific information to identify patient's position on
+               the treatment algorithm for guideline-based therapy
+               recommendations. METHODS: This study qualitatively assesses the
+               therapy decision of clinical algorithms as part of a clinical
+               pathway. The solution uses rule-based clinical algorithms, which
+               were developed based on the corresponding guidelines. These
+               algorithms are executed on a newly developed open-source
+               workflow system and are visualized at the point of care. The aim
+               of this approach is to create clinical algorithms based on an
+               established business process standard, the Business Process
+               Model and Notation (BPMN), which is annotated by UMLS
+               terminologies. The gold standard for the validation process was
+               set by manual extraction of clinical datasets from 86 rectal
+               cancer patients and 89 colon cancer patients. RESULTS: Using
+               this approach, the algorithm achieved a precision value of
+               87.64\% for colon cancer and 84.70\% for rectal cancer with
+               recall values of 87.64 and 83.72\%, respectively. CONCLUSION:
+               The results indicate that the automatic positioning of a patient
+               on the decision pathway is possible with tumor stages that have
+               a less complex clinical algorithm with fewer decision points
+               reaching a higher accuracy than complex stages.",
+  journal   = "Appl. Clin. Inform.",
+  publisher = "Georg Thieme Verlag KG",
+  volume    =  11,
+  number    =  2,
+  pages     = "200--209",
+  month     =  mar,
+  year      =  2020,
+  language  = "en"
+}
+@ARTICLE{Becker2019-du,
+  title     = "Natural language processing of German clinical colorectal cancer
+               notes for guideline-based treatment evaluation",
+  author    = "Becker, Matthias and Kasper, Stefan and B{\"o}ckmann, Britta and
+               J{\"o}ckel, Karl-Heinz and Virchow, Isabel",
+  abstract  = "BACKGROUND: Colorectal cancer is the most commonly occurring
+               cancer in Germany, and the second and third most commonly
+               diagnosed cancer in women and men, respectively. The therapy for
+               this disease is based primarily on the tumor stages, which are
+               usually documented in an unstructured form in medical
+               information systems. In order to re-use this knowledge, the
+               information must be extracted and annotated using the correct
+               terminology. METHODS: In this study, a natural language
+               processing pipeline is developed to identify specific
+               guideline-based patient information and to annotate it with
+               Unified Medical Language System concepts for manual evaluation
+               by a physician. The gold standard for one-time evaluation is
+               determined using the human abstraction of 2513 German clinical
+               notes from electronic health records. RESULTS: Using this
+               approach to process the narrative clinical notes on colorectal
+               cancer for retrospective evaluation of the therapy
+               recommendation, the algorithm achieves a precision value of
+               96.64\% for tumor stage detection and 97.95\% for diagnosis
+               recognition with recall values of 94.89\% and 99.54\%,
+               respectively. The average precision value across all concepts
+               relevant to treatment decisions for patients with known cancer
+               diagnoses (11 concept groups) achieved a precision value of
+               82.05\% with a recall value of 82.45\% and an F1-score of
+               81.81\%, respectively. CONCLUSIONS: The identification of
+               guideline-based information from narrative clinical notes has
+               the potential for implementation as clinical decision support
+               tools.",
+  journal   = "Int. J. Med. Inform.",
+  publisher = "Elsevier BV",
+  volume    =  127,
+  pages     = "141--146",
+  month     =  jul,
+  year      =  2019,
+  keywords  = "Electronic health records; Information extraction; Knowledge
+               management; Natural language processing",
+  copyright = "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  language  = "en"
+}
+@INCOLLECTION{Becker2019-my,
+  title     = "{PiQ} -- eine Pflegeplattform zur Vernetzung quartiersbezogener
+               Versorgungsstrukturen",
+  booktitle = "Digitale Transformation von Dienstleistungen im Gesundheitswesen
+               {VI}",
+  author    = "Becker, Matthias and B{\"o}ckmann, Britta",
+  publisher = "Springer Fachmedien Wiesbaden",
+  pages     = "375--388",
+  year      =  2019,
+  address   = "Wiesbaden"
+}
+@ARTICLE{Becker2017-ih,
+  title    = "Personalized guideline-based treatment recommendations using
+              natural language processing techniques",
+  author   = "Becker, Matthias and B{\"o}ckmann, Britta",
+  abstract = "Clinical guidelines and clinical pathways are accepted and proven
+              instruments for quality assurance and process optimization.
+              Today, electronic representation of clinical guidelines exists as
+              unstructured text, but is not well-integrated with
+              patient-specific information from electronic health records.
+              Consequently, generic content of the clinical guidelines is
+              accessible, but it is not possible to visualize the position of
+              the patient on the clinical pathway, decision support cannot be
+              provided by personalized guidelines for the next treatment step.
+              The Systematized Nomenclature of Medicine - Clinical Terms
+              (SNOMED CT) provides common reference terminology as well as the
+              semantic link for combining the pathways and the patient-specific
+              information. This paper proposes a model-based approach to
+              support the development of guideline-compliant pathways combined
+              with patient-specific structured and unstructured information
+              using SNOMED CT. To identify SNOMED CT concepts, a software was
+              developed to extract SNOMED CT codes out of structured and
+              unstructured German data to map these with clinical pathways
+              annotated in accordance with the systematized nomenclature.",
+  journal  = "Stud. Health Technol. Inform.",
+  volume   =  235,
+  pages    = "271--275",
+  year     =  2017,
+  keywords = "clinical guidelines; clinical pathways; information extraction;
+              knowledge management; natural language processing",
+  language = "en"
+}
+@BOOK{Gundlapalli2018-jg,
+  title     = "{MEDINFO} 2017: Precision Healthcare through informatics:
+               Proceedings of the 16th World Congress on Medical and Health
+               Informatics",
+  author    = "Gundlapalli, A V and Jaulent, M-C and Zhao, D",
+  abstract  = "Medical informatics is a field which continues to evolve with
+               developments and improvements in foundational methods,
+               applications, and technology, constantly offering opportunities
+               for supporting the customization of healthcare to individual
+               patients. This book presents the proceedings of the 16th World
+               Congress of Medical and Health Informatics (MedInfo2017), held
+               in Hangzhou, China, in August 2017, which also marked the 50th
+               anniversary of the International Medical Informatics Association
+               (IMIA). The central theme of MedInfo2017 was ``Precision
+               Healthcare through Informatics'', and the scientific program was
+               divided into five tracks: connected and digital health; human
+               data science; human, organizational, and social aspects;
+               knowledge management and quality; and safety and patient
+               outcomes. The 249 accepted papers and 168 posters included here
+               span the breadth and depth of sub-disciplines in biomedical and
+               health informatics, such as clinical informatics; nursing
+               informatics; consumer health informatics; public health
+               informatics; human factors in healthcare; bioinformatics;
+               translational informatics; quality and safety; research at the
+               intersection of biomedical and health informatics; and precision
+               medicine. The book will be of interest to all those who wish to
+               keep pace with advances in the science, education, and practice
+               of biomedical and health informatics worldwide.",
+  publisher = "IOS Press",
+  month     =  jan,
+  year      =  2018,
+  address   = "Amsterdam, NY",
+  language  = "en"
+}
+@INCOLLECTION{Bockmann2017-nj,
+  title     = "{IT-gest{\"u}tztes} leitliniengerechtes Versorgungsmanagement
+               onkologischer Patientinnen und Patienten intersektoral und
+               interprofessionell",
+  booktitle = "Digitale Transformation von Dienstleistungen im Gesundheitswesen
+               {II}",
+  author    = "B{\"o}ckmann, Britta",
+  publisher = "Springer Fachmedien Wiesbaden",
+  pages     = "179--204",
+  year      =  2017,
+  address   = "Wiesbaden"
+}
+@ARTICLE{Bockmann2016-ti,
+  title     = "Mobile {IT}: Possibilities and barriers of mHealth",
+  author    = "B{\"o}ckmann, B",
+  abstract  = "The increasing availability of mobile devices and corresponding
+               applications, both for providers and patients, often leads to
+               speculation that mHealth, as the combination of mobile devices
+               and health services is often called, would revolutionize the use
+               of information technology (IT) in healthcare. On the other hand
+               users, providers and operators providing such solutions are
+               often confronted with completely new challenges. This article
+               assesses the options and potential of mHealth and also takes a
+               critical look at potential obstacles. As this field is very
+               broad this critical analysis is illustrated by means of three
+               exemplary application areas: mHealth in radiology, the influence
+               of mHealth on research and mHealth as an enabler of new
+               services, always with examples from other countries.The use of
+               mHealth in radiology currently often develops empirically from
+               existing applications in a relatively unstructured way and
+               benefiting from the dynamic development of mobile technology.
+               The possibilities range from viewing images at the bedside via
+               mobile accessibility of radiologists up to teleradiology. In
+               research there is a huge potential in solutions that actively
+               involve patients with their own mobile devices but the field of
+               data protection is still perceived in Germany as problematic so
+               that only a few research institutions are actively addressing
+               these options. The concept of mHealth allows physicians,
+               hospitals and other service providers to invent entirely new
+               services and a start-up scene is beginning to be established
+               with business models becoming successful particularly with
+               exchanges at the interface with established suppliers.",
+  journal   = "Radiologe",
+  publisher = "Springer Science and Business Media LLC",
+  volume    =  56,
+  number    =  4,
+  pages     = "371--374",
+  month     =  apr,
+  year      =  2016,
+  keywords  = "MHealth; Medical informatics applications; Start-up scene;
+               Strategy; Teleradiology",
+  language  = "de"
+}

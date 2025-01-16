@@ -36,7 +36,7 @@
   title: Dr.
   mail: carl.thielmann@uk-essen.de
   roles: ['postdoc']
-  interests: Associated UMEA Clinician Scientist
+  interests: ['Associated UMEA Clinician Scientist']
   img: Thielmann-Max.jpg
 
 - name: Lea Otte

@@ -56,11 +56,14 @@
         {% if person.phone %}
           Phone: +{{ person.phone }} <br />
         {% endif %}
+        {% for assoc in person.associations %}
+          {{ assoc }} <br />
+        {% endfor %}
         {% if person.interests.size > 0 %}
-          Interests: {{ person.interests | array_to_sentence_string }}
+          Interests: {{ person.interests | array_to_sentence_string }} <br />
         {% endif %}
         {% if jrg %}
-          <br />Junior Research Group <a href="{{ jrg_group.name | prepend: "/groups/" | relative_url }}">{{ jrg_group.label }}</a>
+          Junior Research Group <a href="{{ jrg_group.name | prepend: "/groups/" | relative_url }}">{{ jrg_group.label }}</a>
         {% endif %}
     </p>
     <div class="clear small-bottom-margin"></div>

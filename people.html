@@ -108,6 +108,9 @@ nav_active: people
         {% endif %}
       {% endfor %}
     {% endfor %}
+    {% for assoc in person.associations %}
+      {{ assoc }} <br />
+    {% endfor %}
     {% if person.mail %}
     {% if person.mail.first %}
       {% for m in person.mail %}

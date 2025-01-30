@@ -14,7 +14,7 @@ The facility is co-led by Dr. Ivana Kraiselburd, Prof. Dr. Folker Meyer and Prof
 </figure>
 
 
-Contact: [eMail](mikrovirocore@uk-essen.de).
+Contact: [eMail](mailto:mikrovirocore@uk-essen.de).
 
 The facility provides high throughput genoyping capabilities using a number of laboratory and computational techniques including robotics and long and short read DNA sequencing technologies.
 

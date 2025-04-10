@@ -15,12 +15,12 @@ jobs:
     runs-on: ubuntu-latest
     container:
       image: ubuntu:24.04
-    permissions:
-      contents: read
-      actions: write
+    permissions: {}
     steps:
     - name: Checkout
       uses: actions/checkout@v4
+      permissions:
+        contents: read
     - name: Build
       run: |
         export DEBIAN_FRONTEND=noninteractive
@@ -39,6 +39,8 @@ jobs:
         jekyll build
 
     - uses: actions/upload-artifact@v4
+      permissions:
+        actions: write
       with:
         name: rendered-site
         path: "_site/"

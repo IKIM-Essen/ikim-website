@@ -36,7 +36,7 @@ Apotheker: Landesapothekerkammer Nordrhein<br>
 
 **Realisierung, technische & inhaltliche Betreuung der Webseite:**<br>
 Institut für Künstliche Intelligenz in der Medizin <br>
-Girardetstr. 2<br>
+Girardetstr. 2, Girardetstr. 8<br>
 45131 Essen
 
 © 2022 Institute for Artificial Intelligence in Medicine, Universitätsklinikum Essen

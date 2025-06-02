@@ -18,10 +18,10 @@ Fax: 02 01 – 7 23-46 94<br>
 
 
 **Vertreten durch den Vorstand:**<br>
-Prof. Dr. Jochen A. Werner (Ärztlicher Direktor und Vorstandsvorsitzender) <br>
+Prof. Dr. Angelika Eggert (Ärztliche Direktorin und Vorstandsvorsitzende) <br>
 Prof. Dr. Jan Buer (Dekan)<br>
 Andrea Schmidt-Rumposch (Pflegedirektorin)<br>
-Stefan Starke <br>
+Dr. Johannes Hütte (Kaufmännischer Direktor) <br>
 
 
 ## Verantwortlich für die Inhalte der Internetseite

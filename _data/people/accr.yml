@@ -46,6 +46,20 @@
   associations: ['Associated UMEA Clinician Scientist']
   img: Thielmann-Max.jpg
 
+- name: Anne Zaremba
+  title: Dr.
+  mail: anne.zaremba@uk-essen.de
+  roles: ['postdoc']
+  associations: ['Associated UMEA Clinician Scientist']
+  img: Zaremba_Anne.jpg
+
+- name: Georg Lodde
+  title: Dr.
+  mail: georg.lodde@uk-essen.de
+  roles: ['postdoc']
+  associations: ['Associated UMEA Clinician Scientist']
+  img: Lodde_Georg.jpg
+
 - name: Lea Otte
   title: M.Sc.
   mail: lea.otte@uk-essen.de

@@ -25,11 +25,12 @@ WIN-KID combines the expertise of our Partners in microbiology, shotgun genomics
 
 
 ### Funding
-EU and the Government of the federal state of Northrhine Westfalia
 <figure>
-    <img src="{{ "img/efre_winkid_badge.png" | relative_url }}" alt=" EFRE WINKID Badge" style="width:800px;" /> 
+    <img src="{{ "img/efre_winkid_eu_funding.png" | relative_url }}" alt=" EFRE WINKID Funding EU" style="width:400px;" /> 
 </figure>
-
+<figure>
+    <img src="{{ "img/efre_winkid_nrw_funding.png" | relative_url }}" alt=" EFRE WINKID Funding NRW" style="width:400px;" /> 
+</figure>
 
 
 ### Project Team
@@ -39,3 +40,6 @@ EU and the Government of the federal state of Northrhine Westfalia
 - M.Sc./TA:    Leah Consten
 
 <br /><br />
+<figure>
+    <img src="{{ "img/efre_winkid_badge.png" | relative_url }}" alt=" EFRE WINKID Badge" style="width:800px;" /> 
+</figure>

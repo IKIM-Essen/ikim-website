@@ -23,17 +23,19 @@ WIN-KID combines the expertise of our Partners in microbiology, shotgun genomics
     <img src="{{ "img/efre_winkid_overview.jpg" | relative_url }}" alt=" EFRE WINKID Overview" style="width:800px;" /> 
 </figure>
 
-### Project Tea
-
 
 ### Funding
 EU and the Government of the federal state of Northrhine Westfalia
+<figure>
+    <img src="{{ "img/efre_winkid_badge.png" | relative_url }}" alt=" EFRE WINKID Badge" style="width:800px;" /> 
+</figure>
 
 
-### Team
-<br>
-PI: Prof. Dr. Folker Meyer
-PhD student:    Miriam Balzer
-PhD student:    Leah Consten
+
+### Project Team
+- PI: Prof. Dr. Folker Meyer
+- PhD student:    Miriam Balzer
+- PhD student:    Julian Welling
+- M.Sc./TA:    Leah Consten
 
 <br /><br />

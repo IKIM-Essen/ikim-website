@@ -74,6 +74,13 @@
   roles: ['phd']
   img: Nishad-Shivohum.jpeg
 
+- name: Julian Welling
+  title: M.Sc.
+  interests:
+  mail: julian.welling@uk-essen.de
+  roles: ['phd']
+  img: Welling_Julian.jpg
+
 - name: Leah Consten
   title: M.Sc.
   mail: leah.consten@uk-essen.de

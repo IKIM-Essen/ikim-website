@@ -32,7 +32,7 @@ jobs:
         bundle3.2
         jekyll build
 
-    - uses: actions/upload-artifact@v4
+    - uses: actions/upload-artifact@v5
       with:
         name: rendered-site
         path: "_site/"

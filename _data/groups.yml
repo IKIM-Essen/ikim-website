@@ -86,7 +86,7 @@
 - name: conco
   type: jrg
   label: Computational Oncology
-  url: https://kocakavuklab.vercel.app
+  url: https://kocakavuklab.com/overview
 
 - name: cheme
   type: jrg

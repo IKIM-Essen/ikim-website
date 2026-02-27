@@ -9,7 +9,7 @@ scholar:
   source: /_bibliography
   bibliography: '**/*.bib{,tex}'
   repository: /pdfs
-  style: chicago-fullnote-bibliography
+  style: chicago-notes-bibliography
   group_by: year
   group_order: descending
   sort_by: year,month

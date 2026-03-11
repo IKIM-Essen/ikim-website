@@ -7,7 +7,7 @@ nav_active: about
 ## How to reach us 
 
 Girardethaus<br>
-Girardetstr. 2<br>
+Girardetstr. 2, Girardetstr. 8<br>
 45131 Essen<br>
 Germany
 
@@ -18,18 +18,10 @@ Germany
 ## Internal Advisory Board
 
 **Prof. Dr. Jan Buer**, Dean Faculty of Medicine<br>
-**Prof. Dr. Jochen A. Werner**, Medical Director<br>
+**Prof. Dr. Angelika Eggert**, Medical Director<br>
 **Prof. Dr. Martin Schuler**, Director Innere Klinik -Tumorforschung, Head of Cancer Research Center Cologne Essen ([CCCE](https://ccce.nrw/))<br>
 **Prof. Dr. Michael Forsting**, Director Institute of Diagnostic and Interventional Radiology and Neuroradiology, Medical Director Zentrale Informationstechnik (ZIT)<br>
 **Prof. Dr. Diana Arweiler-Harbeck**, Clinic of Otolaryngology, Head and Neck Surgery, elected as a member by the Faculty Council
 
-
-## Scientific Advisory Board
-
-**Prof. Dr. Susanne Boll-Westermann**, OFFIS – Institut für Informatik and University of Oldenburg, Oldenburg [Website](https://uol.de/en/media-informatics/team/susanne-boll)<br>
-**Prof. Dr. Ben Glocker**, Faculty of Engeneering, Department of Computing, Imperial College London [Website](https://www.imperial.ac.uk/people/b.glocker)<br>
-**Prof. (apl.) Dr. Daniel Gotthardt**, Mediteo GmbH, Gotthardt Healthgroup AG, XLHealth AG, Heidelberg<br>
-**Prof. Dr. Michael Schloter**, Helmholtz Zentrum Munich [Website](https://www.professoren.tum.de/en/honorary-professors/s/schloter-michael)
- 
 
 

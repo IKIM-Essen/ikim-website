@@ -17,13 +17,6 @@
   roles: ['labmanager']
   interests:
   img: Samira-Makhzami.jpg
-  
-- name: Yichao Hua
-  title: Dr.
-  mail: yichao.hua@uk-essen.de
-  roles: ['postdoc']
-  interests:
-  img: Yichao-Hua_2.jpeg
 
 - name: Peihua Zhao
   title: Dr.
@@ -31,13 +24,6 @@
   roles: ['postdoc']
   interests:
   img: Peihua-Zhao_4-3.jpg
-
-- name: Linqian Weng (Jenny)
-  title: Dr.
-  mail: linqian.weng@uk-essen.de
-  roles: ['postdoc']
-  interests:
-  img: Weng_Jenny.jpeg
 
 - name: Saniya Arfin
   title: Dr.
@@ -87,3 +73,17 @@
   roles: ['tech']
   interests:
   img: Marcel-Bargull.jpg
+
+- name: Yichao Hua
+  title: Dr.
+  mail: yichao.hua@uk-essen.de
+  roles: ['alumni']
+  interests:
+  img: Yichao-Hua_2.jpeg
+
+- name: Linqian Weng (Jenny)
+  title: Dr.
+  mail: linqian.weng@uk-essen.de
+  roles: ['alumni']
+  interests:
+  img: Weng_Jenny.jpeg
